@@ -1,0 +1,28 @@
+$breakpoints: (tablet: 600px, desktop: 1025px);
+
+
+//Examples
+// $map: (
+//   pink: #f442f1,
+//   mint: #15dea5,
+// );
+
+// @each $key, $value in $map {
+//   .btn--#{$key} {
+//       background-color: $value;
+//   }
+// }
+
+
+// $map: (
+//   small: 1rem,
+//   medium: 5rem,
+//   large: 10rem
+// );
+
+
+// @each $size, $measurement in $map {
+//   .btn--#{$size} {
+//       font-size: $measurement;
+//   }
+// }

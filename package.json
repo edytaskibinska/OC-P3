@@ -5,7 +5,8 @@
   "main": "index.html",
   "scripts": {
     "sass": "sass --watch ./sass/main.scss:./public/css/main.css",
-    "sass-norm": "sass --watch ./sass/vendors/normalize.scss:./public/css/normalize.css"
+    "sass-norm": "sass --watch ./sass/vendors/normalize.scss:./public/css/normalize.css",
+    "prefix": "postcss ./public/css/main.css --use autoprefixer -d ./public/css/prefixed/"
   },
   "repository": {
     "type": "git",
@@ -13,6 +14,7 @@
   },
   "author": "Edyta Skibinska",
   "license": "ISC",
+  "browserslist": "last 4 versions",
   "bugs": {
     "url": "https://github.com/edytaskibinska/OC-P3/issues"
   },

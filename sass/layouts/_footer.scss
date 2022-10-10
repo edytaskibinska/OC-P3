@@ -1,3 +1,8 @@
+@import "../utils/mixins";
+
 footer {
-    border : 2px solid blue;
+  border: 2px solid blue;
+  @include tablet {
+    border: 1px solid orange;
+  }
 }
