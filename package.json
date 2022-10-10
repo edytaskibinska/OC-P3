@@ -1,0 +1,20 @@
+{
+  "name": "projet3",
+  "version": "1.0.0",
+  "description": "oh my food project",
+  "main": "index.html",
+  "scripts": {
+    "sass": "sass --watch ./sass/main.scss:./public/css/main.css",
+    "sass2": "sass --watch ./sass/vendors/normalize.scss:./public/css/normalize.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/edytaskibinska/OC-P3.git"
+  },
+  "author": "Edyta Skibinska",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/edytaskibinska/OC-P3/issues"
+  },
+  "homepage": "https://github.com/edytaskibinska/OC-P3#readme"
+}
