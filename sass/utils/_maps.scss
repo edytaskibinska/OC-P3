@@ -1,5 +1,9 @@
-$breakpoints: (tablet: 600px, desktop: 1025px);
+@import "./variables";
 
+$breakpoints: (
+  tablet: 600px,
+  desktop: 1025px,
+);
 
 //Examples
 // $map: (
@@ -13,16 +17,48 @@ $breakpoints: (tablet: 600px, desktop: 1025px);
 //   }
 // }
 
+/*************************GLOBAL BLOCKS STYLES*************************/
 
-// $map: (
-//   small: 1rem,
-//   medium: 5rem,
-//   large: 10rem
-// );
+$map-color-section: (
+  white: $colour-white,
+  lightgrey: $colour-lightgrey,
+  grey: $colour-grey,
+  graphit: $colour-graphit,
+);
 
+@each $name, $value in $map-color-section {
+  .section--#{$name} {
+    background-color: $value;
+    @if ($name == grey) or ($name == graphit) {
+      padding: 20px;
+    } @else {
+      padding: 40px 20px;
+    }
+  }
+}
 
-// @each $size, $measurement in $map {
-//   .btn--#{$size} {
-//       font-size: $measurement;
-//   }
-// }
+/*************************GLOBAL SHADOWS STYLES*************************/
+$map-shadow: (
+  small: 0 5px 5px 0 $colour-shadow,
+  medium: 0 7px 10px 1px $colour-shadow,
+  biggest: 0 10px 15px 3px $colour-shadow,
+);
+
+@each $size, $value in $map-shadow {
+  .shadow--#{$size} {
+    -webkit-box-shadow: $value;
+    box-shadow: $value;
+  }
+}
+
+///Small
+// -webkit-box-shadow: 0 5px 5px 0 #D4D4D4;
+// box-shadow: 0 5px 5px 0 #D4D4D4;
+
+// //medium
+// -webkit-box-shadow: 0 7px 10px 1px #D4D4D4;
+// box-shadow: 0 7px 10px 1px #D4D4D4;
+
+// //biggest
+// -webkit-box-shadow: 0 10px 15px 3px #D4D4D4;
+// box-shadow: 0 10px 15px 3px #D4D4D4;

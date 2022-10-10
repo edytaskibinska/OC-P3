@@ -1,3 +1,4 @@
+@import "../utils//variables";
 /*************************BOX SIZING*************************/
 
 div,
@@ -8,9 +9,16 @@ p {
   box-sizing: border-box;
 }
 
+/*************************GLOBAL STYLES*************************/
 body {
   font-family: "Roboto", sans-serif;
 }
-h1 {
-  font-family: "Shrikhand", cursive;
+h1, h2, h3 {
+  font-weight: 600;
+}
+
+/*************************TOP PAGE*************************/
+
+.location__title, .intro {
+  text-align: center;
 }

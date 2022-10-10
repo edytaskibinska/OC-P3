@@ -1,0 +1,13 @@
+@import "../utils/mixins";
+@import "../utils//variables";
+
+/*************************BUTTONS STYLE*************************/
+
+.button--primary {
+  border: 0px solid transparent;
+  padding: 15px 20px;
+  border-radius: 50px;
+  color: $colour-white;
+  @include center-element15;
+  @include gradient-clear-violet;
+}

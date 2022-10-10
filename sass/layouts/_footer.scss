@@ -1,7 +1,16 @@
 @import "../utils/mixins";
+@import "../utils//variables";
+
+/*************************FOOTER SPECIFIC STYLE*************************/
 
 footer {
-  border: 2px solid blue;
+  color: $colour-white;
+  svg {
+    max-width: 100px;
+  }
+  path {
+    fill: $colour-white;
+  }
   @include tablet {
     border: 1px solid orange;
   }

@@ -27,6 +27,7 @@ p {
   margin-block-end: 0.3em;
 }
 
+a:focus,
 input:focus {
   outline: none;
 }
@@ -40,21 +41,417 @@ p {
   box-sizing: border-box;
 }
 
+/*************************GLOBAL STYLES*************************/
 body {
   font-family: "Roboto", sans-serif;
 }
 
-h1 {
-  font-family: "Shrikhand", cursive;
+h1, h2, h3 {
+  font-weight: 600;
 }
 
+/*************************TOP PAGE*************************/
+.location__title, .intro {
+  text-align: center;
+}
+
+/*************************GLOBAL BLOCKS STYLES*************************/
+.section--white {
+  background-color: #FFF;
+  padding: 40px 20px;
+}
+
+.section--lightgrey {
+  background-color: #f4f4f4;
+  padding: 40px 20px;
+}
+
+.section--grey {
+  background-color: #e4e4e4;
+  padding: 20px;
+}
+
+.section--graphit {
+  background-color: #2d2d2d;
+  padding: 20px;
+}
+
+/*************************GLOBAL SHADOWS STYLES*************************/
+.shadow--small {
+  -webkit-box-shadow: 0 5px 5px 0 #D4D4D4;
+  box-shadow: 0 5px 5px 0 #D4D4D4;
+}
+
+.shadow--medium {
+  -webkit-box-shadow: 0 7px 10px 1px #D4D4D4;
+  box-shadow: 0 7px 10px 1px #D4D4D4;
+}
+
+.shadow--biggest {
+  -webkit-box-shadow: 0 10px 15px 3px #D4D4D4;
+  box-shadow: 0 10px 15px 3px #D4D4D4;
+}
+
+/*************************BUTTONS STYLE*************************/
+.button--primary {
+  border: 0px solid transparent;
+  padding: 15px 20px;
+  border-radius: 50px;
+  color: #FFF;
+  display: block;
+  margin: 15px auto;
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ff79da+0,9356dc+100 */
+  background: #FF79DA; /* Old browsers */
+  background: -moz-linear-gradient(top, #FF79DA 0%, #9356DC 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #FF79DA 0%, #9356DC 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #FF79DA 0%, #9356DC 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+
+/*************************GLOBAL BLOCKS STYLES*************************/
+.section--white {
+  background-color: #FFF;
+  padding: 40px 20px;
+}
+
+.section--lightgrey {
+  background-color: #f4f4f4;
+  padding: 40px 20px;
+}
+
+.section--grey {
+  background-color: #e4e4e4;
+  padding: 20px;
+}
+
+.section--graphit {
+  background-color: #2d2d2d;
+  padding: 20px;
+}
+
+/*************************GLOBAL SHADOWS STYLES*************************/
+.shadow--small {
+  -webkit-box-shadow: 0 5px 5px 0 #D4D4D4;
+  box-shadow: 0 5px 5px 0 #D4D4D4;
+}
+
+.shadow--medium {
+  -webkit-box-shadow: 0 7px 10px 1px #D4D4D4;
+  box-shadow: 0 7px 10px 1px #D4D4D4;
+}
+
+.shadow--biggest {
+  -webkit-box-shadow: 0 10px 15px 3px #D4D4D4;
+  box-shadow: 0 10px 15px 3px #D4D4D4;
+}
+
+/*************************ROUNDED BOXES STYLE*************************/
+.rounded-box {
+  border-radius: 15px;
+  background-color: #FFF;
+  overflow: hidden;
+  width: 100%;
+  max-width: 300px;
+  display: block;
+  margin: 15px auto;
+  position: relative;
+}
+.rounded-box__new {
+  font-size: 13px;
+  border-radius: 3px;
+  background-color: #99E2D0;
+  color: green;
+  padding: 6px 10px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  z-index: 3;
+}
+.rounded-box__image {
+  overflow: hidden;
+  height: 150px;
+  width: 100%;
+  position: relative;
+}
+.rounded-box__image img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+.rounded-box__desc {
+  position: relative;
+  padding: 10px;
+}
+.rounded-box__title, .rounded-box__text {
+  font-size: 16px;
+}
+.rounded-box__text {
+  font-weight: 100;
+}
+.rounded-box__heart {
+  position: absolute;
+  right: 20px;
+  top: calc(50% - 10px);
+}
+.rounded-box__heart .heart--linear {
+  width: 30px;
+  height: 30px;
+  display: block;
+}
+.rounded-box__heart .heart--full {
+  width: 30px;
+  height: 30px;
+  display: none;
+}
+.rounded-box__heart .heart--full path {
+  fill: url(#gradient);
+}
+.rounded-box__heart:hover .heart--linear {
+  display: none;
+}
+.rounded-box__heart:hover .heart--full {
+  display: block;
+}
+
+/*************************GLOBAL BLOCKS STYLES*************************/
+.section--white {
+  background-color: #FFF;
+  padding: 40px 20px;
+}
+
+.section--lightgrey {
+  background-color: #f4f4f4;
+  padding: 40px 20px;
+}
+
+.section--grey {
+  background-color: #e4e4e4;
+  padding: 20px;
+}
+
+.section--graphit {
+  background-color: #2d2d2d;
+  padding: 20px;
+}
+
+/*************************GLOBAL SHADOWS STYLES*************************/
+.shadow--small {
+  -webkit-box-shadow: 0 5px 5px 0 #D4D4D4;
+  box-shadow: 0 5px 5px 0 #D4D4D4;
+}
+
+.shadow--medium {
+  -webkit-box-shadow: 0 7px 10px 1px #D4D4D4;
+  box-shadow: 0 7px 10px 1px #D4D4D4;
+}
+
+.shadow--biggest {
+  -webkit-box-shadow: 0 10px 15px 3px #D4D4D4;
+  box-shadow: 0 10px 15px 3px #D4D4D4;
+}
+
+/*************************ROUNDED BOXES STYLE*************************/
+.capsule {
+  border-radius: 20px;
+  background-color: #f4f4f4;
+  position: relative;
+  padding: 30px 40px;
+  margin: 15px 0 15px 20px;
+}
+.capsule__num {
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  border-radius: 25px;
+  background-color: #9356DC;
+  color: #FFF;
+  padding: 5px;
+  left: -10px;
+  text-align: center;
+  top: calc(50% - 10px);
+  font-size: 14px;
+}
+.capsule__text {
+  font-size: 16px;
+}
+
+/*************************GLOBAL BLOCKS STYLES*************************/
+.section--white {
+  background-color: #FFF;
+  padding: 40px 20px;
+}
+
+.section--lightgrey {
+  background-color: #f4f4f4;
+  padding: 40px 20px;
+}
+
+.section--grey {
+  background-color: #e4e4e4;
+  padding: 20px;
+}
+
+.section--graphit {
+  background-color: #2d2d2d;
+  padding: 20px;
+}
+
+/*************************GLOBAL SHADOWS STYLES*************************/
+.shadow--small {
+  -webkit-box-shadow: 0 5px 5px 0 #D4D4D4;
+  box-shadow: 0 5px 5px 0 #D4D4D4;
+}
+
+.shadow--medium {
+  -webkit-box-shadow: 0 7px 10px 1px #D4D4D4;
+  box-shadow: 0 7px 10px 1px #D4D4D4;
+}
+
+.shadow--biggest {
+  -webkit-box-shadow: 0 10px 15px 3px #D4D4D4;
+  box-shadow: 0 10px 15px 3px #D4D4D4;
+}
+
+/*************************HEADER SPECIFIC STYLE*************************/
+header {
+  padding: 20px;
+}
+header svg {
+  max-width: 150px;
+  display: block;
+  margin: 0 auto;
+  display: block;
+}
+@media all and (min-width: 600px) {
+  header {
+    border: 1px solid orange;
+  }
+}
+
+/*************************GLOBAL BLOCKS STYLES*************************/
+.section--white {
+  background-color: #FFF;
+  padding: 40px 20px;
+}
+
+.section--lightgrey {
+  background-color: #f4f4f4;
+  padding: 40px 20px;
+}
+
+.section--grey {
+  background-color: #e4e4e4;
+  padding: 20px;
+}
+
+.section--graphit {
+  background-color: #2d2d2d;
+  padding: 20px;
+}
+
+/*************************GLOBAL SHADOWS STYLES*************************/
+.shadow--small {
+  -webkit-box-shadow: 0 5px 5px 0 #D4D4D4;
+  box-shadow: 0 5px 5px 0 #D4D4D4;
+}
+
+.shadow--medium {
+  -webkit-box-shadow: 0 7px 10px 1px #D4D4D4;
+  box-shadow: 0 7px 10px 1px #D4D4D4;
+}
+
+.shadow--biggest {
+  -webkit-box-shadow: 0 10px 15px 3px #D4D4D4;
+  box-shadow: 0 10px 15px 3px #D4D4D4;
+}
+
+/*************************FOOTER SPECIFIC STYLE*************************/
 footer {
-  border: 2px solid blue;
+  color: #FFF;
+}
+footer svg {
+  max-width: 100px;
+}
+footer path {
+  fill: #FFF;
 }
 @media all and (min-width: 600px) {
   footer {
     border: 1px solid orange;
   }
+}
+
+/*************************GLOBAL BLOCKS STYLES*************************/
+.section--white {
+  background-color: #FFF;
+  padding: 40px 20px;
+}
+
+.section--lightgrey {
+  background-color: #f4f4f4;
+  padding: 40px 20px;
+}
+
+.section--grey {
+  background-color: #e4e4e4;
+  padding: 20px;
+}
+
+.section--graphit {
+  background-color: #2d2d2d;
+  padding: 20px;
+}
+
+/*************************GLOBAL SHADOWS STYLES*************************/
+.shadow--small {
+  -webkit-box-shadow: 0 5px 5px 0 #D4D4D4;
+  box-shadow: 0 5px 5px 0 #D4D4D4;
+}
+
+.shadow--medium {
+  -webkit-box-shadow: 0 7px 10px 1px #D4D4D4;
+  box-shadow: 0 7px 10px 1px #D4D4D4;
+}
+
+.shadow--biggest {
+  -webkit-box-shadow: 0 10px 15px 3px #D4D4D4;
+  box-shadow: 0 10px 15px 3px #D4D4D4;
+}
+
+/*************************GLOBAL BLOCKS STYLES*************************/
+.section--white {
+  background-color: #FFF;
+  padding: 40px 20px;
+}
+
+.section--lightgrey {
+  background-color: #f4f4f4;
+  padding: 40px 20px;
+}
+
+.section--grey {
+  background-color: #e4e4e4;
+  padding: 20px;
+}
+
+.section--graphit {
+  background-color: #2d2d2d;
+  padding: 20px;
+}
+
+/*************************GLOBAL SHADOWS STYLES*************************/
+.shadow--small {
+  -webkit-box-shadow: 0 5px 5px 0 #D4D4D4;
+  box-shadow: 0 5px 5px 0 #D4D4D4;
+}
+
+.shadow--medium {
+  -webkit-box-shadow: 0 7px 10px 1px #D4D4D4;
+  box-shadow: 0 7px 10px 1px #D4D4D4;
+}
+
+.shadow--biggest {
+  -webkit-box-shadow: 0 10px 15px 3px #D4D4D4;
+  box-shadow: 0 10px 15px 3px #D4D4D4;
 }
 
 /*# sourceMappingURL=main.css.map */

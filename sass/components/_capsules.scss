@@ -1,0 +1,31 @@
+@import "../utils/mixins";
+@import "../utils//variables";
+
+/*************************ROUNDED BOXES STYLE*************************/
+
+
+.capsule {
+  border-radius: 20px;
+  background-color: $colour-lightgrey;
+  position: relative;
+  padding: 30px 40px;
+  margin: 15px 0 15px 20px;
+
+   &__num {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    border-radius: 25px;
+    background-color: $colour-primary;
+    color: $colour-white;
+    padding: 5px;
+    left: -10px;
+    text-align: center;
+    top: calc(50% - 10px);
+    font-size: 14px;
+
+  }
+  &__text {
+    font-size: 16px;
+  }
+}

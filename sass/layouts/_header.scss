@@ -1,0 +1,16 @@
+@import "../utils/mixins";
+@import "../utils//variables";
+
+/*************************HEADER SPECIFIC STYLE*************************/
+
+header {
+padding: 20px;
+  svg {
+    max-width: 150px;
+    @include center-element;
+    display: block;
+  }
+  @include tablet {
+    border: 1px solid orange;
+  }
+}

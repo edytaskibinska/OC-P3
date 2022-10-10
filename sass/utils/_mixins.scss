@@ -1,13 +1,62 @@
 @import "./maps";
+@import "./variables";
 
 @mixin tablet {
-    @media all and (min-width: map-get($breakpoints, tablet)) {
-      @content;
-    }
+  @media all and (min-width: map-get($breakpoints, tablet)) {
+    @content;
   }
-  @mixin desktop {
-    @media all and (min-width: map-get($breakpoints, desktop)) {
-      @content;
-    }
+}
+@mixin desktop {
+  @media all and (min-width: map-get($breakpoints, desktop)) {
+    @content;
   }
-  
+}
+
+@mixin gradient-clear-violet {
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ff79da+0,9356dc+100 */
+  background: $colour-secondary; /* Old browsers */
+  background: -moz-linear-gradient(
+    top,
+    $colour-secondary 0%,
+    $colour-primary 100%
+  ); /* FF3.6-15 */
+  background: -webkit-linear-gradient(
+    top,
+    $colour-secondary 0%,
+    $colour-primary 100%
+  ); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(
+    to bottom,
+    $colour-secondary 0%,
+    $colour-primary 100%
+  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+@mixin gradient-darken-violet {
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ff79da+0,9356dc+100 */
+  background: $colour-primary; /* Old browsers */
+  background: -moz-linear-gradient(
+    top,
+    $colour-primary 0%,
+    $colour-secondary 100%
+  ); /* FF3.6-15 */
+  background: -webkit-linear-gradient(
+    top,
+    $colour-primary 0%,
+    $colour-secondary 100%
+  ); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(
+    to bottom,
+    $colour-primary 0%,
+    $colour-secondary 100%
+  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+
+@mixin center-element {
+  display: block;
+  margin: 0 auto;
+}
+
+@mixin center-element15 {
+  display: block;
+  margin: 15px auto;
+}
