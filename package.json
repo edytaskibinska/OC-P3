@@ -5,7 +5,7 @@
   "main": "index.html",
   "scripts": {
     "sass": "sass --watch ./sass/main.scss:./public/css/main.css",
-    "sass2": "sass --watch ./sass/vendors/normalize.scss:./public/css/normalize.css"
+    "sass-norm": "sass --watch ./sass/vendors/normalize.scss:./public/css/normalize.css"
   },
   "repository": {
     "type": "git",
