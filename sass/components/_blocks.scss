@@ -52,6 +52,7 @@
         width: 30px;
         height: 30px;
         opacity: 1;
+        @include delay-medium;
       }
       &--full {
         width: 30px;
@@ -60,6 +61,7 @@
         top: 0;
         left: 0;
         opacity: 0;
+        @include delay-medium;
         path {
           fill: url(#gradient);
         }
@@ -70,9 +72,11 @@
       .heart {
         &--linear {
           opacity: 0;
+          @include delay-medium;
         }
         &--full {
           opacity: 1;
+          @include delay-medium;
         }
       }
     }

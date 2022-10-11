@@ -8,6 +8,12 @@
   padding: 15px 20px;
   border-radius: 50px;
   color: $colour-white;
+  @include delay-medium;
   @include center-element15;
-  @include gradient-clear-violet;
+  @include gradient-purple($colour-secondary, $colour-primary, false);
+  &:hover {
+    @include delay-medium;
+    @include gradient-purple($colour-secondary, $colour-primary, true);
+    @include darken-medium-shadow;
+  }
 }

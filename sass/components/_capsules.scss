@@ -11,10 +11,12 @@
 
 }
 .capsule--basic {
+  opacity: 0;
   @include capsule-base;
   overflow: hidden;
   p {
     font-weight: 200;
+    font-size: 14px;
     &.price {
       font-weight: 600;
       position: absolute;
@@ -28,14 +30,25 @@
   .block__switch1,
   .block__switch2 {
     position: relative;
+    @include delay-medium;
+
     
   }
   .block__switch1 {
     padding: 15px;
     width: 100%;
+    h3, p {
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
   }
   .block__switch2 {
-    width: 0px;
+    width: 70px;
+    position: absolute;
+    right: -70px;
+    top: 0;
+    bottom: 0;
     background-color: $colour-tertiary;
     padding: 0px;
     display: flex;
@@ -49,24 +62,32 @@
   &:hover {
     .block__switch1 {
       width: calc(100% - 70px);
+      @include delay-medium;
+      p {
+        max-width: calc(100% - 30px);
+      }
     }
     .block__switch2 {
-      width: 70px;
+      right: 0px;
       padding: 15px;
+      @include delay-medium;
     }
   }
 }
 
 .capsule {
   @include capsule-base;
+  opacity: 0;
   background-color: $colour-lightgrey;
   padding: 30px;
   margin: 15px 0 15px 20px;
+  @include delay-speed;
   .fa-solid {
     margin-right: 20px;
     @include lighten-colour($colour-graphit);
   }
   &:hover {
+    @include delay-speed;
     @include lighten-bg($colour-primary);
     .fa-solid {
       color: $colour-primary;

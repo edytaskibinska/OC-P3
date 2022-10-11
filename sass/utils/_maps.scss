@@ -51,14 +51,50 @@ $map-shadow: (
   }
 }
 
-///Small
-// -webkit-box-shadow: 0 5px 5px 0 #D4D4D4;
-// box-shadow: 0 5px 5px 0 #D4D4D4;
+$map-transition-delay: (
+  0: 0.3s,
+  1: 0.5s,
+  2: 0.8s,
+  3: 1.3s,
+  4: 2.1s,
+);
+@-webkit-keyframes fadeIn { 
+  0% { opacity: 0; }
+  20% { opacity: 0; }
+  40% { opacity: 0.3; }
+  60% { opacity: 0.5; }
+  80% { opacity: 0.9; }
+  100% { opacity: 1; }
+}
 
-// //medium
-// -webkit-box-shadow: 0 7px 10px 1px #D4D4D4;
-// box-shadow: 0 7px 10px 1px #D4D4D4;
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  20% { opacity: 0; }
+  40% { opacity: 0.3; }
+  60% { opacity: 0.5; }
+  80% { opacity: 0.9; }
+  100% { opacity: 1; }
+}
 
-// //biggest
-// -webkit-box-shadow: 0 10px 15px 3px #D4D4D4;
-// box-shadow: 0 10px 15px 3px #D4D4D4;
+@each $index, $value in $map-transition-delay {
+  .capsule--basic:nth-child(#{$index}) {
+    -webkit-animation-name: fadeIn;
+    -webkit-animation-duration: 0.5s;
+    -webkit-animation-delay:$value;
+    -webkit-animation-fill-mode: forwards;
+    animation-name: fadeIn;
+    animation-duration: 0.5s;
+    animation-delay:$value;
+    animation-fill-mode: forwards;
+  }
+  .capsule:nth-child(#{$index}) {
+    -webkit-animation-name: fadeIn;
+    -webkit-animation-duration: 0.5s;
+    -webkit-animation-delay:$value;
+    -webkit-animation-fill-mode: forwards;
+    animation-name: fadeIn;
+    animation-duration: 0.5s;
+    animation-delay:$value;
+    animation-fill-mode: forwards;
+  }
+}

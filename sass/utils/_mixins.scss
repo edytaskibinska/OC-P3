@@ -12,45 +12,42 @@
   }
 }
 
-@mixin gradient-clear-violet {
+@mixin gradient-purple(
+  $top-color: $colour-secondary,
+  $bottom-color: $colour-primary,
+  $light: false  
+) {
+  $new-top-colour: lighten($top-color, 10%);
+  $new-bottom-color: lighten($bottom-color, 10%);
+  @if $light == true {
+    $top-color: $new-top-colour;
+    $bottom-color: $new-bottom-color;
+  } @else {
+    $top-color: $top-color;
+    $bottom-color: $bottom-color;
+  }
   /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ff79da+0,9356dc+100 */
-  background: $colour-secondary; /* Old browsers */
+  background: $top-color; /* Old browsers */
   background: -moz-linear-gradient(
     top,
-    $colour-secondary 0%,
-    $colour-primary 100%
+    $top-color 0%,
+    $bottom-color 100%
   ); /* FF3.6-15 */
   background: -webkit-linear-gradient(
     top,
-    $colour-secondary 0%,
-    $colour-primary 100%
+    $top-color 0%,
+    $bottom-color 100%
   ); /* Chrome10-25,Safari5.1-6 */
   background: linear-gradient(
     to bottom,
-    $colour-secondary 0%,
-    $colour-primary 100%
+    $top-color 0%,
+    $bottom-color 100%
   ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 }
-@mixin gradient-darken-violet {
-  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ff79da+0,9356dc+100 */
-  background: $colour-primary; /* Old browsers */
-  background: -moz-linear-gradient(
-    top,
-    $colour-primary 0%,
-    $colour-secondary 100%
-  ); /* FF3.6-15 */
-  background: -webkit-linear-gradient(
-    top,
-    $colour-primary 0%,
-    $colour-secondary 100%
-  ); /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(
-    to bottom,
-    $colour-primary 0%,
-    $colour-secondary 100%
-  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+@mixin darken-medium-shadow {
+  -webkit-box-shadow: 0 7px 10px 1px darken($colour-shadow, 10%);
+  box-shadow: 0 7px 10px 1px darken($colour-shadow, 10%);
 }
-
 @mixin center-element {
   display: block;
   margin: 0 auto;
@@ -63,13 +60,19 @@
 
 @mixin lighten-colour($colour) {
   $colour: lighten($colour, 40%);
-  color:  $colour;
+  color: $colour;
 }
 @mixin darken-colour($colour) {
   $colour: darken($colour, 40%);
-  color:  $colour;
+  color: $colour;
 }
 @mixin lighten-bg($colour) {
   $colour: lighten($colour, 35%);
-  background-color:  $colour;
+  background-color: $colour;
+}
+@mixin delay-speed {
+  transition: all 0.3s ease-in-out;
+}
+@mixin delay-medium {
+  transition: all 0.6s ease-in-out;
 }
