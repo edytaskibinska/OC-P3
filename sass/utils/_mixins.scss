@@ -60,3 +60,16 @@
   display: block;
   margin: 15px auto;
 }
+
+@mixin lighten-colour($colour) {
+  $colour: lighten($colour, 40%);
+  color:  $colour;
+}
+@mixin darken-colour($colour) {
+  $colour: darken($colour, 40%);
+  color:  $colour;
+}
+@mixin lighten-bg($colour) {
+  $colour: lighten($colour, 35%);
+  background-color:  $colour;
+}

@@ -3,8 +3,19 @@
 
 /*************************FOOTER SPECIFIC STYLE*************************/
 
-footer {
+.footer {
   color: $colour-white;
+  &__navigation {
+    a {
+      font-weight: 300;
+      font-size: 14px;
+      .fa-solid {
+        min-width: 20px;
+        text-align: left;
+      }
+    }
+  }
+
   svg {
     max-width: 100px;
   }

@@ -46,13 +46,72 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
-h1, h2, h3 {
+/*************************TOP PAGE*************************/
+.rounded-top {
+  border-radius: 50px 50px 0 0;
+  margin-top: -50px;
+  position: relative;
+}
+
+.center-block {
+  width: 100%;
+  max-width: 360px;
+  position: relative;
+  margin: 0 auto;
+}
+
+.menu {
+  margin-bottom: 40px;
+}
+
+/*************************TITLES*************************/
+h1,
+h2,
+h3 {
   font-weight: 600;
 }
 
-/*************************TOP PAGE*************************/
-.location__title, .intro {
+h1 {
+  font-size: 24px;
+}
+
+.subtitle {
+  font-weight: 200;
+  font-size: 16px;
+  margin: 5px 0 20px 0;
+}
+
+.secondary-title {
+  margin-bottom: 20px;
+}
+
+.location__title,
+.intro {
   text-align: center;
+}
+
+.title__block {
+  position: relative;
+}
+
+.decorative-title {
+  font-family: Shrikhand;
+}
+
+.menu-title-block {
+  position: relative;
+  margin-top: 40px;
+}
+.menu-title-block .decorative__menu-title {
+  text-transform: uppercase;
+  font-weight: 100;
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+.menu-title-block .line {
+  background-color: #99E2D0;
+  width: 40px;
+  height: 3px;
 }
 
 /*************************GLOBAL BLOCKS STYLES*************************/
@@ -150,7 +209,6 @@ h1, h2, h3 {
   background-color: #FFF;
   overflow: hidden;
   width: 100%;
-  max-width: 300px;
   display: block;
   margin: 15px auto;
   position: relative;
@@ -159,7 +217,7 @@ h1, h2, h3 {
   font-size: 13px;
   border-radius: 3px;
   background-color: #99E2D0;
-  color: green;
+  color: #278870;
   padding: 6px 10px;
   position: absolute;
   top: 10px;
@@ -195,21 +253,24 @@ h1, h2, h3 {
 .rounded-box__heart .heart--linear {
   width: 30px;
   height: 30px;
-  display: block;
+  opacity: 1;
 }
 .rounded-box__heart .heart--full {
   width: 30px;
   height: 30px;
-  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
 }
 .rounded-box__heart .heart--full path {
   fill: url(#gradient);
 }
 .rounded-box__heart:hover .heart--linear {
-  display: none;
+  opacity: 0;
 }
 .rounded-box__heart:hover .heart--full {
-  display: block;
+  opacity: 1;
 }
 
 /*************************GLOBAL BLOCKS STYLES*************************/
@@ -250,12 +311,71 @@ h1, h2, h3 {
 }
 
 /*************************ROUNDED BOXES STYLE*************************/
+.capsule--basic {
+  border-radius: 20px;
+  background-color: #FFF;
+  margin: 15px 0;
+  position: relative;
+  overflow: hidden;
+}
+.capsule--basic p {
+  font-weight: 200;
+}
+.capsule--basic p.price {
+  font-weight: 600;
+  position: absolute;
+  right: 15px;
+  bottom: 15px;
+}
+.capsule--basic.flexbox {
+  display: flex;
+}
+.capsule--basic .block__switch1,
+.capsule--basic .block__switch2 {
+  position: relative;
+}
+.capsule--basic .block__switch1 {
+  padding: 15px;
+  width: 100%;
+}
+.capsule--basic .block__switch2 {
+  width: 0px;
+  background-color: #99E2D0;
+  padding: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.capsule--basic .block__switch2 .fa-solid {
+  font-size: 25px;
+  color: #FFF;
+}
+.capsule--basic:hover .block__switch1 {
+  width: calc(100% - 70px);
+}
+.capsule--basic:hover .block__switch2 {
+  width: 70px;
+  padding: 15px;
+}
+
 .capsule {
   border-radius: 20px;
-  background-color: #f4f4f4;
+  background-color: #FFF;
+  margin: 15px 0;
   position: relative;
-  padding: 30px 40px;
+  background-color: #f4f4f4;
+  padding: 30px;
   margin: 15px 0 15px 20px;
+}
+.capsule .fa-solid {
+  margin-right: 20px;
+  color: #939393;
+}
+.capsule:hover {
+  background-color: #f2eafb;
+}
+.capsule:hover .fa-solid {
+  color: #9356DC;
 }
 .capsule__num {
   position: absolute;
@@ -312,19 +432,32 @@ h1, h2, h3 {
 }
 
 /*************************HEADER SPECIFIC STYLE*************************/
-header {
+.mainheader {
   padding: 20px;
+  position: relative;
 }
-header svg {
+.mainheader svg {
   max-width: 150px;
   display: block;
   margin: 0 auto;
   display: block;
 }
+.mainheader .back {
+  font-size: 26px;
+  position: absolute;
+  top: calc(50% - 13px);
+}
 @media all and (min-width: 600px) {
-  header {
+  .mainheader {
     border: 1px solid orange;
   }
+}
+
+.subheader {
+  min-height: 250px;
+}
+.subheader .rounded-box__image {
+  min-height: 250px;
 }
 
 /*************************GLOBAL BLOCKS STYLES*************************/
@@ -365,17 +498,25 @@ header svg {
 }
 
 /*************************FOOTER SPECIFIC STYLE*************************/
-footer {
+.footer {
   color: #FFF;
 }
-footer svg {
+.footer__navigation a {
+  font-weight: 300;
+  font-size: 14px;
+}
+.footer__navigation a .fa-solid {
+  min-width: 20px;
+  text-align: left;
+}
+.footer svg {
   max-width: 100px;
 }
-footer path {
+.footer path {
   fill: #FFF;
 }
 @media all and (min-width: 600px) {
-  footer {
+  .footer {
     border: 1px solid orange;
   }
 }

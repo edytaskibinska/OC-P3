@@ -3,14 +3,28 @@
 
 /*************************HEADER SPECIFIC STYLE*************************/
 
-header {
-padding: 20px;
+.mainheader {
+  padding: 20px;
+  position: relative;
   svg {
     max-width: 150px;
     @include center-element;
     display: block;
   }
+  .back {
+    font-size: 26px;
+    position: absolute;
+    top: calc(50% - 13px);
+  }
   @include tablet {
     border: 1px solid orange;
+  }
+}
+
+.subheader {
+  min-height: 250px;
+  .rounded-box__image {
+    min-height: 250px;
+
   }
 }

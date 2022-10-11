@@ -13,12 +13,22 @@ p {
 body {
   font-family: "Roboto", sans-serif;
 }
-h1, h2, h3 {
-  font-weight: 600;
-}
 
 /*************************TOP PAGE*************************/
+.rounded-top {
+  border-radius: 50px 50px 0 0 ;
+  margin-top: -50px;
+  position: relative;
 
-.location__title, .intro {
-  text-align: center;
+}
+
+.center-block {
+  width: 100%;
+  max-width: 360px;
+  position: relative;
+  margin: 0 auto;
+}
+
+.menu {
+  margin-bottom: 40px;
 }

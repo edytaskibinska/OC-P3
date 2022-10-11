@@ -2,16 +2,77 @@
 @import "../utils//variables";
 
 /*************************ROUNDED BOXES STYLE*************************/
+@mixin capsule-base {
+  border-radius: 20px;
+  background-color: $colour-white;
+  
+  margin: 15px 0;
+  position: relative;
 
+}
+.capsule--basic {
+  @include capsule-base;
+  overflow: hidden;
+  p {
+    font-weight: 200;
+    &.price {
+      font-weight: 600;
+      position: absolute;
+      right: 15px;
+      bottom: 15px;
+    }
+  }
+  &.flexbox {
+    display: flex;
+  }
+  .block__switch1,
+  .block__switch2 {
+    position: relative;
+    
+  }
+  .block__switch1 {
+    padding: 15px;
+    width: 100%;
+  }
+  .block__switch2 {
+    width: 0px;
+    background-color: $colour-tertiary;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .fa-solid {
+      font-size: 25px;
+      color: $colour-white;
+    }
+  }
+  &:hover {
+    .block__switch1 {
+      width: calc(100% - 70px);
+    }
+    .block__switch2 {
+      width: 70px;
+      padding: 15px;
+    }
+  }
+}
 
 .capsule {
-  border-radius: 20px;
+  @include capsule-base;
   background-color: $colour-lightgrey;
-  position: relative;
-  padding: 30px 40px;
+  padding: 30px;
   margin: 15px 0 15px 20px;
-
-   &__num {
+  .fa-solid {
+    margin-right: 20px;
+    @include lighten-colour($colour-graphit);
+  }
+  &:hover {
+    @include lighten-bg($colour-primary);
+    .fa-solid {
+      color: $colour-primary;
+    }
+  }
+  &__num {
     position: absolute;
     width: 25px;
     height: 25px;
@@ -23,7 +84,6 @@
     text-align: center;
     top: calc(50% - 10px);
     font-size: 14px;
-
   }
   &__text {
     font-size: 16px;
