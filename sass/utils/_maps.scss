@@ -5,18 +5,6 @@ $breakpoints: (
   desktop: 1025px,
 );
 
-//Examples
-// $map: (
-//   pink: #f442f1,
-//   mint: #15dea5,
-// );
-
-// @each $key, $value in $map {
-//   .btn--#{$key} {
-//       background-color: $value;
-//   }
-// }
-
 /*************************GLOBAL BLOCKS STYLES*************************/
 
 $map-color-section: (
@@ -60,43 +48,155 @@ $map-transition-delay: (
   3: 1.3s,
   4: 2.1s,
 );
-@-webkit-keyframes fadeIn { 
-  0% { opacity: 0; }
-  20% { opacity: 0; }
-  40% { opacity: 0.3; }
-  60% { opacity: 0.5; }
-  80% { opacity: 0.9; }
-  100% { opacity: 1; }
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  20% {
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.3;
+  }
+  60% {
+    opacity: 0.5;
+  }
+  80% {
+    opacity: 0.9;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 @keyframes fadeIn {
-  0% { opacity: 0; }
-  20% { opacity: 0; }
-  40% { opacity: 0.3; }
-  60% { opacity: 0.5; }
-  80% { opacity: 0.9; }
-  100% { opacity: 1; }
+  0% {
+    opacity: 0;
+  }
+  20% {
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.3;
+  }
+  60% {
+    opacity: 0.5;
+  }
+  80% {
+    opacity: 0.9;
+  }
+  100% {
+    opacity: 1;
+  }
 }
-
+@mixin animation-fadeIn($val, $duration) {
+  -webkit-animation-name: fadeIn;
+  -webkit-animation-duration: $duration;
+  -webkit-animation-delay: $val;
+  -webkit-animation-fill-mode: forwards;
+  animation-name: fadeIn;
+  animation-duration: $duration;
+  animation-delay: $val;
+  animation-fill-mode: forwards;
+}
 @each $index, $value in $map-transition-delay {
   .capsule--basic:nth-child(#{$index}) {
-    -webkit-animation-name: fadeIn;
-    -webkit-animation-duration: 0.5s;
-    -webkit-animation-delay:$value;
-    -webkit-animation-fill-mode: forwards;
-    animation-name: fadeIn;
-    animation-duration: 0.5s;
-    animation-delay:$value;
-    animation-fill-mode: forwards;
+    @include animation-fadeIn($value, 0.5);
   }
   .capsule:nth-child(#{$index}) {
-    -webkit-animation-name: fadeIn;
-    -webkit-animation-duration: 0.5s;
-    -webkit-animation-delay:$value;
-    -webkit-animation-fill-mode: forwards;
-    animation-name: fadeIn;
-    animation-duration: 0.5s;
-    animation-delay:$value;
+    @include animation-fadeIn($value, 0.5);
+  }
+}
+
+/*************************ANIMATION LOADER*************************/
+$map-circles: (
+  circle1: 3s,
+  circle2: 5s,
+  circle3: 8s,
+);
+@mixin loader-c($index) {
+  @if $index == circle1 {
+    width: 230px;
+    height: 230px;
+    border-right: 2px solid $colour-primary;
+    border-bottom: 2px solid $colour-primary;
+  } @else if $index == circle2 {
+    width: 210px;
+    height: 210px;
+    border-right: 2px solid $colour-secondary;
+    border-bottom: 2px solid $colour-secondary;
+  } @else {
+    width: 250px;
+    height: 250px;
+    border-right: 2px solid $colour-tertiary;
+    border-bottom: 2px solid $colour-tertiary;
+  }
+}
+
+@each $index, $value in $map-circles {
+  .loader__#{$index} {
+    position: absolute;
+    border-left: 0px;
+    border-top: 0px;
+
+    border-radius: 50%;
+    @include loader-c($index);
+    animation-name: rotate;
+    animation-duration: $value;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+  }
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(-360deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+$map-letters: (
+  letter1: 0.6s,
+  letter2: 0.9s,
+  letter3: 1.2s,
+  letter4: 1.5s,
+  letter5: 1.8s,
+  letter6: 2.1s,
+  letter7: 2.4s,
+  letter8: 2.7s,
+);
+
+@mixin animation-fade-in($val, $duration) {
+  opacity: 0;
+  -webkit-animation-name: fadeIn;
+  -webkit-animation-duration: $duration;
+  -webkit-animation-delay: $val;
+  animation-name: fadeIn;
+  animation-duration: $duration;
+  animation-delay: $val;
+}
+
+@each $index, $value in $map-letters {
+  .loader__#{$index} {
+    @include animation-fade-in($value, 0.5s);
     animation-fill-mode: forwards;
+  }
+}
+
+$map-dots: (
+  dot1: 0.3s,
+  dot2: 0.6s,
+  dot3: 0.9s,
+  dot4: 1.2s,
+  dot5: 1.5s,
+  dot6: 1.8s,
+  dot7: 2.1s,
+);
+
+@each $index, $value in $map-dots {
+  .loader__#{$index} {
+    @include animation-fade-in($value, 1.5s);
   }
 }

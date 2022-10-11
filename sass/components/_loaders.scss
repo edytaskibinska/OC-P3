@@ -1,0 +1,24 @@
+@import "../utils/mixins";
+
+/*************************LOADERS*************************/
+.loader {
+  position: absolute;
+  background-color: $colour-lightgrey-A90;
+  width: 100%;
+  top: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  @include animation-fade-out;
+  svg {
+    overflow: visible;
+  }
+  &__animation {
+    width: 250px;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
