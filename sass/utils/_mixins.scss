@@ -167,10 +167,10 @@
 @mixin animation-fade-out {
   -webkit-animation-name: fadeOut;
   -webkit-animation-duration: 7s;
-  -webkit-animation-delay: 0;
+  -webkit-animation-delay: 0s;
   animation-name: fadeOut;
   animation-duration: 7s;
-  animation-delay: 0;
+  animation-delay: 0s;
   animation-fill-mode: forwards;
 
 }

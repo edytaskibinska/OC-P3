@@ -101,10 +101,10 @@ $map-transition-delay: (
 }
 @each $index, $value in $map-transition-delay {
   .capsule--basic:nth-child(#{$index}) {
-    @include animation-fadeIn($value, 0.5);
+    @include animation-fadeIn($value, 0.5s);
   }
   .capsule:nth-child(#{$index}) {
-    @include animation-fadeIn($value, 0.5);
+    @include animation-fadeIn($value, 0.5s);
   }
 }
 
