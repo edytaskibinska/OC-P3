@@ -11,6 +11,7 @@
   @include delay-medium;
   @include center-element15;
   @include gradient-purple($colour-secondary, $colour-primary, false);
+  display: inline-block;
   &:hover {
     @include delay-medium;
     @include gradient-purple($colour-secondary, $colour-primary, true);

@@ -14,7 +14,6 @@
       }
     }
   }
-
   svg {
     max-width: 100px;
   }
@@ -22,6 +21,18 @@
     fill: $colour-white;
   }
   @include tablet {
-    border: 1px solid orange;
+    .center-block {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .footer__navigation {
+      ul {
+        display: flex;
+        li {
+          padding: 0 10px;
+        }
+      }
+    }
   }
 }

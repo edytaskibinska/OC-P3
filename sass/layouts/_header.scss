@@ -16,15 +16,10 @@
     position: absolute;
     top: calc(50% - 13px);
   }
-  @include tablet {
-    border: 1px solid orange;
-  }
 }
-
 .subheader {
   min-height: 250px;
   .rounded-box__image {
     min-height: 250px;
-
   }
 }

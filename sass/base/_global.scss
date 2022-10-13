@@ -1,4 +1,5 @@
 @import "../utils/variables";
+@import "../utils/mixins";
 /*************************BOX SIZING*************************/
 
 div,
@@ -16,10 +17,9 @@ body {
 
 /*************************TOP PAGE*************************/
 .rounded-top {
-  border-radius: 50px 50px 0 0 ;
+  border-radius: 50px 50px 0 0;
   margin-top: -50px;
   position: relative;
-
 }
 
 .center-block {
@@ -31,4 +31,29 @@ body {
 
 .menu {
   margin-bottom: 40px;
+}
+
+@include tablet {
+  .center-block {
+    h1,
+    h2 {
+      width: 100%;
+    }
+    max-width: 900px;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-around;
+   .button-block {
+      flex-grow: 1;
+      width: 100%;
+      .button--primary{
+        display: block;
+      }
+    }
+  }
+  .intro {
+    .center-block {
+      flex-direction: column;
+    }
+  }
 }

@@ -8,6 +8,7 @@
   background-color: $colour-white;
   overflow: hidden;
   width: 100%;
+  max-width: 320px;
   @include center-element15;
   position: relative;
   &__new {
@@ -81,4 +82,10 @@
       }
     }
   }
+  @include tablet {
+    max-width: 260px;
+  }
+}
+.button-block {
+  text-align: center;
 }
