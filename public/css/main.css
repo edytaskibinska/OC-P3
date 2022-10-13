@@ -1041,7 +1041,8 @@ body {
 }
 /*************************LOADERS*************************/
 .loader {
-  position: absolute;
+  z-index: 999;
+  position: fixed;
   background-color: rgba(244, 244, 244, 0.9);
   width: 100%;
   top: 0;

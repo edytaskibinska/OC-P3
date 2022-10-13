@@ -3,7 +3,8 @@
 /*************************LOADERS*************************/
 
 .loader {
-  position: absolute;
+  z-index: 999;
+  position: fixed;
   background-color: $colour-lightgrey-A90;
   width: 100%;
   top: 0;
