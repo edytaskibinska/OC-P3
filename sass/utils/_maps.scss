@@ -197,7 +197,7 @@ $map-dots: (
   dot6: 1.8s,
   dot7: 2.1s,
 );
-
+ 
 @each $index, $value in $map-dots {
   .loader__#{$index} {
     @include animation-fade-in($value, 1.5s);
