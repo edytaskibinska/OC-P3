@@ -6,6 +6,7 @@
     @content;
   }
 }
+
 @mixin desktop {
   @media all and (min-width: map-get($breakpoints, desktop)) {
     @content;
@@ -31,10 +32,12 @@
   background: -webkit-linear-gradient(top, $top-color 0%, $bottom-color 100%);
   background: linear-gradient(to bottom, $top-color 0%, $bottom-color 100%);
 }
+
 @mixin darken-medium-shadow {
   -webkit-box-shadow: 0 7px 10px 1px darken($colour-shadow, 10%);
   box-shadow: 0 7px 10px 1px darken($colour-shadow, 10%);
 }
+
 @mixin center-element {
   display: block;
   margin: 0 auto;
@@ -49,17 +52,21 @@
   $colour: lighten($colour, 40%);
   color: $colour;
 }
+
 @mixin darken-colour($colour) {
   $colour: darken($colour, 40%);
   color: $colour;
 }
+
 @mixin lighten-bg($colour) {
   $colour: lighten($colour, 35%);
   background-color: $colour;
 }
+
 @mixin delay-speed {
   transition: all 0.3s ease-in-out;
 }
+
 @mixin delay-medium {
   transition: all 0.6s ease-in-out;
 }

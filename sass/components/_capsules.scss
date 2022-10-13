@@ -2,13 +2,12 @@
 @import "../utils/variables";
 
 /*************************ROUNDED BOXES STYLE*************************/
+
 @mixin capsule-base {
   border-radius: 20px;
   background-color: $colour-white;
-  
   margin: 15px 0;
   position: relative;
-
 }
 .capsule--basic {
   opacity: 0;
@@ -31,13 +30,12 @@
   .block__switch2 {
     position: relative;
     @include delay-medium;
-
-    
   }
   .block__switch1 {
     padding: 15px;
     width: 100%;
-    h3, p {
+    h3,
+    p {
       overflow: hidden;
       text-overflow: ellipsis;
       white-space: nowrap;
@@ -74,7 +72,6 @@
     }
   }
 }
-
 .capsule {
   @include capsule-base;
   opacity: 0;

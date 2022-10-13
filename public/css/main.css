@@ -34,7 +34,7 @@ input:focus {
 
 /*************************GLOBAL BLOCKS STYLES*************************/
 .section--white {
-  background-color: #FFF;
+  background-color: #fff;
   padding: 40px 20px;
 }
 
@@ -55,18 +55,18 @@ input:focus {
 
 /*************************GLOBAL SHADOWS STYLES*************************/
 .shadow--small {
-  -webkit-box-shadow: 0 5px 5px 0 #D4D4D4;
-  box-shadow: 0 5px 5px 0 #D4D4D4;
+  -webkit-box-shadow: 0 5px 5px 0 #d4d4d4;
+  box-shadow: 0 5px 5px 0 #d4d4d4;
 }
 
 .shadow--medium {
-  -webkit-box-shadow: 0 7px 10px 1px #D4D4D4;
-  box-shadow: 0 7px 10px 1px #D4D4D4;
+  -webkit-box-shadow: 0 7px 10px 1px #d4d4d4;
+  box-shadow: 0 7px 10px 1px #d4d4d4;
 }
 
 .shadow--biggest {
-  -webkit-box-shadow: 0 10px 15px 3px #D4D4D4;
-  box-shadow: 0 10px 15px 3px #D4D4D4;
+  -webkit-box-shadow: 0 10px 15px 3px #d4d4d4;
+  box-shadow: 0 10px 15px 3px #d4d4d4;
 }
 
 /*************************ANIMATION TRANSITIONS ON LIST OF ELEMENTS STYLES*************************/
@@ -228,8 +228,8 @@ input:focus {
   border-radius: 50%;
   width: 230px;
   height: 230px;
-  border-right: 2px solid #9356DC;
-  border-bottom: 2px solid #9356DC;
+  border-right: 2px solid #9356dc;
+  border-bottom: 2px solid #9356dc;
   animation-name: rotate;
   animation-duration: 3s;
   animation-iteration-count: infinite;
@@ -243,8 +243,8 @@ input:focus {
   border-radius: 50%;
   width: 210px;
   height: 210px;
-  border-right: 2px solid #FF79DA;
-  border-bottom: 2px solid #FF79DA;
+  border-right: 2px solid #ff79da;
+  border-bottom: 2px solid #ff79da;
   animation-name: rotate;
   animation-duration: 5s;
   animation-iteration-count: infinite;
@@ -258,8 +258,8 @@ input:focus {
   border-radius: 50%;
   width: 250px;
   height: 250px;
-  border-right: 2px solid #99E2D0;
-  border-bottom: 2px solid #99E2D0;
+  border-right: 2px solid #99e2d0;
+  border-bottom: 2px solid #99e2d0;
   animation-name: rotate;
   animation-duration: 8s;
   animation-iteration-count: infinite;
@@ -565,7 +565,7 @@ body {
 }
 /*************************GLOBAL BLOCKS STYLES*************************/
 .section--white {
-  background-color: #FFF;
+  background-color: #fff;
   padding: 40px 20px;
 }
 
@@ -586,18 +586,18 @@ body {
 
 /*************************GLOBAL SHADOWS STYLES*************************/
 .shadow--small {
-  -webkit-box-shadow: 0 5px 5px 0 #D4D4D4;
-  box-shadow: 0 5px 5px 0 #D4D4D4;
+  -webkit-box-shadow: 0 5px 5px 0 #d4d4d4;
+  box-shadow: 0 5px 5px 0 #d4d4d4;
 }
 
 .shadow--medium {
-  -webkit-box-shadow: 0 7px 10px 1px #D4D4D4;
-  box-shadow: 0 7px 10px 1px #D4D4D4;
+  -webkit-box-shadow: 0 7px 10px 1px #d4d4d4;
+  box-shadow: 0 7px 10px 1px #d4d4d4;
 }
 
 .shadow--biggest {
-  -webkit-box-shadow: 0 10px 15px 3px #D4D4D4;
-  box-shadow: 0 10px 15px 3px #D4D4D4;
+  -webkit-box-shadow: 0 10px 15px 3px #d4d4d4;
+  box-shadow: 0 10px 15px 3px #d4d4d4;
 }
 
 /*************************ANIMATION TRANSITIONS ON LIST OF ELEMENTS STYLES*************************/
@@ -759,8 +759,8 @@ body {
   border-radius: 50%;
   width: 230px;
   height: 230px;
-  border-right: 2px solid #9356DC;
-  border-bottom: 2px solid #9356DC;
+  border-right: 2px solid #9356dc;
+  border-bottom: 2px solid #9356dc;
   animation-name: rotate;
   animation-duration: 3s;
   animation-iteration-count: infinite;
@@ -774,8 +774,8 @@ body {
   border-radius: 50%;
   width: 210px;
   height: 210px;
-  border-right: 2px solid #FF79DA;
-  border-bottom: 2px solid #FF79DA;
+  border-right: 2px solid #ff79da;
+  border-bottom: 2px solid #ff79da;
   animation-name: rotate;
   animation-duration: 5s;
   animation-iteration-count: infinite;
@@ -789,8 +789,8 @@ body {
   border-radius: 50%;
   width: 250px;
   height: 250px;
-  border-right: 2px solid #99E2D0;
-  border-bottom: 2px solid #99E2D0;
+  border-right: 2px solid #99e2d0;
+  border-bottom: 2px solid #99e2d0;
   animation-name: rotate;
   animation-duration: 8s;
   animation-iteration-count: infinite;
@@ -1114,14 +1114,14 @@ h1 {
   margin-bottom: 5px;
 }
 .menu-title-block .line {
-  background-color: #99E2D0;
+  background-color: #99e2d0;
   width: 40px;
   height: 3px;
 }
 
 /*************************GLOBAL BLOCKS STYLES*************************/
 .section--white {
-  background-color: #FFF;
+  background-color: #fff;
   padding: 40px 20px;
 }
 
@@ -1142,18 +1142,18 @@ h1 {
 
 /*************************GLOBAL SHADOWS STYLES*************************/
 .shadow--small {
-  -webkit-box-shadow: 0 5px 5px 0 #D4D4D4;
-  box-shadow: 0 5px 5px 0 #D4D4D4;
+  -webkit-box-shadow: 0 5px 5px 0 #d4d4d4;
+  box-shadow: 0 5px 5px 0 #d4d4d4;
 }
 
 .shadow--medium {
-  -webkit-box-shadow: 0 7px 10px 1px #D4D4D4;
-  box-shadow: 0 7px 10px 1px #D4D4D4;
+  -webkit-box-shadow: 0 7px 10px 1px #d4d4d4;
+  box-shadow: 0 7px 10px 1px #d4d4d4;
 }
 
 .shadow--biggest {
-  -webkit-box-shadow: 0 10px 15px 3px #D4D4D4;
-  box-shadow: 0 10px 15px 3px #D4D4D4;
+  -webkit-box-shadow: 0 10px 15px 3px #d4d4d4;
+  box-shadow: 0 10px 15px 3px #d4d4d4;
 }
 
 /*************************ANIMATION TRANSITIONS ON LIST OF ELEMENTS STYLES*************************/
@@ -1315,8 +1315,8 @@ h1 {
   border-radius: 50%;
   width: 230px;
   height: 230px;
-  border-right: 2px solid #9356DC;
-  border-bottom: 2px solid #9356DC;
+  border-right: 2px solid #9356dc;
+  border-bottom: 2px solid #9356dc;
   animation-name: rotate;
   animation-duration: 3s;
   animation-iteration-count: infinite;
@@ -1330,8 +1330,8 @@ h1 {
   border-radius: 50%;
   width: 210px;
   height: 210px;
-  border-right: 2px solid #FF79DA;
-  border-bottom: 2px solid #FF79DA;
+  border-right: 2px solid #ff79da;
+  border-bottom: 2px solid #ff79da;
   animation-name: rotate;
   animation-duration: 5s;
   animation-iteration-count: infinite;
@@ -1345,8 +1345,8 @@ h1 {
   border-radius: 50%;
   width: 250px;
   height: 250px;
-  border-right: 2px solid #99E2D0;
-  border-bottom: 2px solid #99E2D0;
+  border-right: 2px solid #99e2d0;
+  border-bottom: 2px solid #99e2d0;
   animation-name: rotate;
   animation-duration: 8s;
   animation-iteration-count: infinite;
@@ -1600,14 +1600,14 @@ h1 {
   border: 0px solid transparent;
   padding: 15px 20px;
   border-radius: 50px;
-  color: #FFF;
+  color: #fff;
   transition: all 0.6s ease-in-out;
   display: block;
   margin: 15px auto;
-  background: #FF79DA;
-  background: -moz-linear-gradient(top, #FF79DA 0%, #9356DC 100%);
-  background: -webkit-linear-gradient(top, #FF79DA 0%, #9356DC 100%);
-  background: linear-gradient(to bottom, #FF79DA 0%, #9356DC 100%);
+  background: #ff79da;
+  background: -moz-linear-gradient(top, #ff79da 0%, #9356dc 100%);
+  background: -webkit-linear-gradient(top, #ff79da 0%, #9356dc 100%);
+  background: linear-gradient(to bottom, #ff79da 0%, #9356dc 100%);
   display: inline-block;
 }
 .button--primary:hover {
@@ -1622,7 +1622,7 @@ h1 {
 
 /*************************GLOBAL BLOCKS STYLES*************************/
 .section--white {
-  background-color: #FFF;
+  background-color: #fff;
   padding: 40px 20px;
 }
 
@@ -1643,18 +1643,18 @@ h1 {
 
 /*************************GLOBAL SHADOWS STYLES*************************/
 .shadow--small {
-  -webkit-box-shadow: 0 5px 5px 0 #D4D4D4;
-  box-shadow: 0 5px 5px 0 #D4D4D4;
+  -webkit-box-shadow: 0 5px 5px 0 #d4d4d4;
+  box-shadow: 0 5px 5px 0 #d4d4d4;
 }
 
 .shadow--medium {
-  -webkit-box-shadow: 0 7px 10px 1px #D4D4D4;
-  box-shadow: 0 7px 10px 1px #D4D4D4;
+  -webkit-box-shadow: 0 7px 10px 1px #d4d4d4;
+  box-shadow: 0 7px 10px 1px #d4d4d4;
 }
 
 .shadow--biggest {
-  -webkit-box-shadow: 0 10px 15px 3px #D4D4D4;
-  box-shadow: 0 10px 15px 3px #D4D4D4;
+  -webkit-box-shadow: 0 10px 15px 3px #d4d4d4;
+  box-shadow: 0 10px 15px 3px #d4d4d4;
 }
 
 /*************************ANIMATION TRANSITIONS ON LIST OF ELEMENTS STYLES*************************/
@@ -1816,8 +1816,8 @@ h1 {
   border-radius: 50%;
   width: 230px;
   height: 230px;
-  border-right: 2px solid #9356DC;
-  border-bottom: 2px solid #9356DC;
+  border-right: 2px solid #9356dc;
+  border-bottom: 2px solid #9356dc;
   animation-name: rotate;
   animation-duration: 3s;
   animation-iteration-count: infinite;
@@ -1831,8 +1831,8 @@ h1 {
   border-radius: 50%;
   width: 210px;
   height: 210px;
-  border-right: 2px solid #FF79DA;
-  border-bottom: 2px solid #FF79DA;
+  border-right: 2px solid #ff79da;
+  border-bottom: 2px solid #ff79da;
   animation-name: rotate;
   animation-duration: 5s;
   animation-iteration-count: infinite;
@@ -1846,8 +1846,8 @@ h1 {
   border-radius: 50%;
   width: 250px;
   height: 250px;
-  border-right: 2px solid #99E2D0;
-  border-bottom: 2px solid #99E2D0;
+  border-right: 2px solid #99e2d0;
+  border-bottom: 2px solid #99e2d0;
   animation-name: rotate;
   animation-duration: 8s;
   animation-iteration-count: infinite;
@@ -2099,7 +2099,7 @@ h1 {
 /*************************ROUNDED BOXES STYLE*************************/
 .rounded-box {
   border-radius: 15px;
-  background-color: #FFF;
+  background-color: #fff;
   overflow: hidden;
   width: 100%;
   max-width: 320px;
@@ -2110,7 +2110,7 @@ h1 {
 .rounded-box__new {
   font-size: 13px;
   border-radius: 3px;
-  background-color: #99E2D0;
+  background-color: #99e2d0;
   color: #278870;
   padding: 6px 10px;
   position: absolute;
@@ -2182,7 +2182,7 @@ h1 {
 
 /*************************GLOBAL BLOCKS STYLES*************************/
 .section--white {
-  background-color: #FFF;
+  background-color: #fff;
   padding: 40px 20px;
 }
 
@@ -2203,18 +2203,18 @@ h1 {
 
 /*************************GLOBAL SHADOWS STYLES*************************/
 .shadow--small {
-  -webkit-box-shadow: 0 5px 5px 0 #D4D4D4;
-  box-shadow: 0 5px 5px 0 #D4D4D4;
+  -webkit-box-shadow: 0 5px 5px 0 #d4d4d4;
+  box-shadow: 0 5px 5px 0 #d4d4d4;
 }
 
 .shadow--medium {
-  -webkit-box-shadow: 0 7px 10px 1px #D4D4D4;
-  box-shadow: 0 7px 10px 1px #D4D4D4;
+  -webkit-box-shadow: 0 7px 10px 1px #d4d4d4;
+  box-shadow: 0 7px 10px 1px #d4d4d4;
 }
 
 .shadow--biggest {
-  -webkit-box-shadow: 0 10px 15px 3px #D4D4D4;
-  box-shadow: 0 10px 15px 3px #D4D4D4;
+  -webkit-box-shadow: 0 10px 15px 3px #d4d4d4;
+  box-shadow: 0 10px 15px 3px #d4d4d4;
 }
 
 /*************************ANIMATION TRANSITIONS ON LIST OF ELEMENTS STYLES*************************/
@@ -2376,8 +2376,8 @@ h1 {
   border-radius: 50%;
   width: 230px;
   height: 230px;
-  border-right: 2px solid #9356DC;
-  border-bottom: 2px solid #9356DC;
+  border-right: 2px solid #9356dc;
+  border-bottom: 2px solid #9356dc;
   animation-name: rotate;
   animation-duration: 3s;
   animation-iteration-count: infinite;
@@ -2391,8 +2391,8 @@ h1 {
   border-radius: 50%;
   width: 210px;
   height: 210px;
-  border-right: 2px solid #FF79DA;
-  border-bottom: 2px solid #FF79DA;
+  border-right: 2px solid #ff79da;
+  border-bottom: 2px solid #ff79da;
   animation-name: rotate;
   animation-duration: 5s;
   animation-iteration-count: infinite;
@@ -2406,8 +2406,8 @@ h1 {
   border-radius: 50%;
   width: 250px;
   height: 250px;
-  border-right: 2px solid #99E2D0;
-  border-bottom: 2px solid #99E2D0;
+  border-right: 2px solid #99e2d0;
+  border-bottom: 2px solid #99e2d0;
   animation-name: rotate;
   animation-duration: 8s;
   animation-iteration-count: infinite;
@@ -2660,7 +2660,7 @@ h1 {
 .capsule--basic {
   opacity: 0;
   border-radius: 20px;
-  background-color: #FFF;
+  background-color: #fff;
   margin: 15px 0;
   position: relative;
   overflow: hidden;
@@ -2687,7 +2687,8 @@ h1 {
   padding: 15px;
   width: 100%;
 }
-.capsule--basic .block__switch1 h3, .capsule--basic .block__switch1 p {
+.capsule--basic .block__switch1 h3,
+.capsule--basic .block__switch1 p {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
@@ -2698,7 +2699,7 @@ h1 {
   right: -70px;
   top: 0;
   bottom: 0;
-  background-color: #99E2D0;
+  background-color: #99e2d0;
   padding: 0px;
   display: flex;
   justify-content: center;
@@ -2706,7 +2707,7 @@ h1 {
 }
 .capsule--basic .block__switch2 .fa-solid {
   font-size: 25px;
-  color: #FFF;
+  color: #fff;
 }
 .capsule--basic:hover .block__switch1 {
   width: calc(100% - 70px);
@@ -2723,7 +2724,7 @@ h1 {
 
 .capsule {
   border-radius: 20px;
-  background-color: #FFF;
+  background-color: #fff;
   margin: 15px 0;
   position: relative;
   opacity: 0;
@@ -2741,15 +2742,15 @@ h1 {
   background-color: #f2eafb;
 }
 .capsule:hover .fa-solid {
-  color: #9356DC;
+  color: #9356dc;
 }
 .capsule__num {
   position: absolute;
   width: 25px;
   height: 25px;
   border-radius: 25px;
-  background-color: #9356DC;
-  color: #FFF;
+  background-color: #9356dc;
+  color: #fff;
   padding: 5px;
   left: -10px;
   text-align: center;
@@ -2762,7 +2763,7 @@ h1 {
 
 /*************************GLOBAL BLOCKS STYLES*************************/
 .section--white {
-  background-color: #FFF;
+  background-color: #fff;
   padding: 40px 20px;
 }
 
@@ -2783,18 +2784,18 @@ h1 {
 
 /*************************GLOBAL SHADOWS STYLES*************************/
 .shadow--small {
-  -webkit-box-shadow: 0 5px 5px 0 #D4D4D4;
-  box-shadow: 0 5px 5px 0 #D4D4D4;
+  -webkit-box-shadow: 0 5px 5px 0 #d4d4d4;
+  box-shadow: 0 5px 5px 0 #d4d4d4;
 }
 
 .shadow--medium {
-  -webkit-box-shadow: 0 7px 10px 1px #D4D4D4;
-  box-shadow: 0 7px 10px 1px #D4D4D4;
+  -webkit-box-shadow: 0 7px 10px 1px #d4d4d4;
+  box-shadow: 0 7px 10px 1px #d4d4d4;
 }
 
 .shadow--biggest {
-  -webkit-box-shadow: 0 10px 15px 3px #D4D4D4;
-  box-shadow: 0 10px 15px 3px #D4D4D4;
+  -webkit-box-shadow: 0 10px 15px 3px #d4d4d4;
+  box-shadow: 0 10px 15px 3px #d4d4d4;
 }
 
 /*************************ANIMATION TRANSITIONS ON LIST OF ELEMENTS STYLES*************************/
@@ -2956,8 +2957,8 @@ h1 {
   border-radius: 50%;
   width: 230px;
   height: 230px;
-  border-right: 2px solid #9356DC;
-  border-bottom: 2px solid #9356DC;
+  border-right: 2px solid #9356dc;
+  border-bottom: 2px solid #9356dc;
   animation-name: rotate;
   animation-duration: 3s;
   animation-iteration-count: infinite;
@@ -2971,8 +2972,8 @@ h1 {
   border-radius: 50%;
   width: 210px;
   height: 210px;
-  border-right: 2px solid #FF79DA;
-  border-bottom: 2px solid #FF79DA;
+  border-right: 2px solid #ff79da;
+  border-bottom: 2px solid #ff79da;
   animation-name: rotate;
   animation-duration: 5s;
   animation-iteration-count: infinite;
@@ -2986,8 +2987,8 @@ h1 {
   border-radius: 50%;
   width: 250px;
   height: 250px;
-  border-right: 2px solid #99E2D0;
-  border-bottom: 2px solid #99E2D0;
+  border-right: 2px solid #99e2d0;
+  border-bottom: 2px solid #99e2d0;
   animation-name: rotate;
   animation-duration: 8s;
   animation-iteration-count: infinite;
@@ -3262,7 +3263,7 @@ h1 {
 
 /*************************FOOTER SPECIFIC STYLE*************************/
 .footer {
-  color: #FFF;
+  color: #fff;
 }
 .footer__navigation a {
   font-weight: 300;
@@ -3276,7 +3277,7 @@ h1 {
   max-width: 100px;
 }
 .footer path {
-  fill: #FFF;
+  fill: #fff;
 }
 @media all and (min-width: 600px) {
   .footer .center-block {

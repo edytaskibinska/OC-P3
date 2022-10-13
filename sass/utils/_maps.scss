@@ -26,6 +26,7 @@ $map-color-section: (
 }
 
 /*************************GLOBAL SHADOWS STYLES*************************/
+
 $map-shadow: (
   small: 0 5px 5px 0 $colour-shadow,
   medium: 0 7px 10px 1px $colour-shadow,
@@ -109,11 +110,13 @@ $map-transition-delay: (
 }
 
 /*************************ANIMATION LOADER*************************/
+
 $map-circles: (
   circle1: 3s,
   circle2: 5s,
   circle3: 8s,
 );
+
 @mixin loader-c($index) {
   @if $index == circle1 {
     width: 230px;
