@@ -121,29 +121,7 @@ input:focus {
   animation-fill-mode: forwards;
 }
 
-.capsule:nth-child(0) {
-  -webkit-animation-name: fadeIn;
-  -webkit-animation-duration: 0.5s;
-  -webkit-animation-delay: 0.3s;
-  -webkit-animation-fill-mode: forwards;
-  animation-name: fadeIn;
-  animation-duration: 0.5s;
-  animation-delay: 0.3s;
-  animation-fill-mode: forwards;
-}
-
 .capsule--basic:nth-child(1) {
-  -webkit-animation-name: fadeIn;
-  -webkit-animation-duration: 0.5s;
-  -webkit-animation-delay: 0.5s;
-  -webkit-animation-fill-mode: forwards;
-  animation-name: fadeIn;
-  animation-duration: 0.5s;
-  animation-delay: 0.5s;
-  animation-fill-mode: forwards;
-}
-
-.capsule:nth-child(1) {
   -webkit-animation-name: fadeIn;
   -webkit-animation-duration: 0.5s;
   -webkit-animation-delay: 0.5s;
@@ -165,29 +143,7 @@ input:focus {
   animation-fill-mode: forwards;
 }
 
-.capsule:nth-child(2) {
-  -webkit-animation-name: fadeIn;
-  -webkit-animation-duration: 0.5s;
-  -webkit-animation-delay: 0.8s;
-  -webkit-animation-fill-mode: forwards;
-  animation-name: fadeIn;
-  animation-duration: 0.5s;
-  animation-delay: 0.8s;
-  animation-fill-mode: forwards;
-}
-
 .capsule--basic:nth-child(3) {
-  -webkit-animation-name: fadeIn;
-  -webkit-animation-duration: 0.5s;
-  -webkit-animation-delay: 1.3s;
-  -webkit-animation-fill-mode: forwards;
-  animation-name: fadeIn;
-  animation-duration: 0.5s;
-  animation-delay: 1.3s;
-  animation-fill-mode: forwards;
-}
-
-.capsule:nth-child(3) {
   -webkit-animation-name: fadeIn;
   -webkit-animation-duration: 0.5s;
   -webkit-animation-delay: 1.3s;
@@ -209,17 +165,6 @@ input:focus {
   animation-fill-mode: forwards;
 }
 
-.capsule:nth-child(4) {
-  -webkit-animation-name: fadeIn;
-  -webkit-animation-duration: 0.5s;
-  -webkit-animation-delay: 2.1s;
-  -webkit-animation-fill-mode: forwards;
-  animation-name: fadeIn;
-  animation-duration: 0.5s;
-  animation-delay: 2.1s;
-  animation-fill-mode: forwards;
-}
-
 .capsule--basic:nth-child(5) {
   -webkit-animation-name: fadeIn;
   -webkit-animation-duration: 0.5s;
@@ -231,14 +176,58 @@ input:focus {
   animation-fill-mode: forwards;
 }
 
-.capsule:nth-child(5) {
+.capsule:nth-child(0) {
   -webkit-animation-name: fadeIn;
   -webkit-animation-duration: 0.5s;
-  -webkit-animation-delay: 2.4s;
+  -webkit-animation-delay: 3s;
   -webkit-animation-fill-mode: forwards;
   animation-name: fadeIn;
   animation-duration: 0.5s;
-  animation-delay: 2.4s;
+  animation-delay: 3s;
+  animation-fill-mode: forwards;
+}
+
+.capsule:nth-child(1) {
+  -webkit-animation-name: fadeIn;
+  -webkit-animation-duration: 0.5s;
+  -webkit-animation-delay: 4s;
+  -webkit-animation-fill-mode: forwards;
+  animation-name: fadeIn;
+  animation-duration: 0.5s;
+  animation-delay: 4s;
+  animation-fill-mode: forwards;
+}
+
+.capsule:nth-child(2) {
+  -webkit-animation-name: fadeIn;
+  -webkit-animation-duration: 0.5s;
+  -webkit-animation-delay: 5s;
+  -webkit-animation-fill-mode: forwards;
+  animation-name: fadeIn;
+  animation-duration: 0.5s;
+  animation-delay: 5s;
+  animation-fill-mode: forwards;
+}
+
+.capsule:nth-child(3) {
+  -webkit-animation-name: fadeIn;
+  -webkit-animation-duration: 0.5s;
+  -webkit-animation-delay: 6s;
+  -webkit-animation-fill-mode: forwards;
+  animation-name: fadeIn;
+  animation-duration: 0.5s;
+  animation-delay: 6s;
+  animation-fill-mode: forwards;
+}
+
+.capsule:nth-child(4) {
+  -webkit-animation-name: fadeIn;
+  -webkit-animation-duration: 0.5s;
+  -webkit-animation-delay: 7s;
+  -webkit-animation-fill-mode: forwards;
+  animation-name: fadeIn;
+  animation-duration: 0.5s;
+  animation-delay: 7s;
   animation-fill-mode: forwards;
 }
 
@@ -674,29 +663,7 @@ body {
   animation-fill-mode: forwards;
 }
 
-.capsule:nth-child(0) {
-  -webkit-animation-name: fadeIn;
-  -webkit-animation-duration: 0.5s;
-  -webkit-animation-delay: 0.3s;
-  -webkit-animation-fill-mode: forwards;
-  animation-name: fadeIn;
-  animation-duration: 0.5s;
-  animation-delay: 0.3s;
-  animation-fill-mode: forwards;
-}
-
 .capsule--basic:nth-child(1) {
-  -webkit-animation-name: fadeIn;
-  -webkit-animation-duration: 0.5s;
-  -webkit-animation-delay: 0.5s;
-  -webkit-animation-fill-mode: forwards;
-  animation-name: fadeIn;
-  animation-duration: 0.5s;
-  animation-delay: 0.5s;
-  animation-fill-mode: forwards;
-}
-
-.capsule:nth-child(1) {
   -webkit-animation-name: fadeIn;
   -webkit-animation-duration: 0.5s;
   -webkit-animation-delay: 0.5s;
@@ -718,29 +685,7 @@ body {
   animation-fill-mode: forwards;
 }
 
-.capsule:nth-child(2) {
-  -webkit-animation-name: fadeIn;
-  -webkit-animation-duration: 0.5s;
-  -webkit-animation-delay: 0.8s;
-  -webkit-animation-fill-mode: forwards;
-  animation-name: fadeIn;
-  animation-duration: 0.5s;
-  animation-delay: 0.8s;
-  animation-fill-mode: forwards;
-}
-
 .capsule--basic:nth-child(3) {
-  -webkit-animation-name: fadeIn;
-  -webkit-animation-duration: 0.5s;
-  -webkit-animation-delay: 1.3s;
-  -webkit-animation-fill-mode: forwards;
-  animation-name: fadeIn;
-  animation-duration: 0.5s;
-  animation-delay: 1.3s;
-  animation-fill-mode: forwards;
-}
-
-.capsule:nth-child(3) {
   -webkit-animation-name: fadeIn;
   -webkit-animation-duration: 0.5s;
   -webkit-animation-delay: 1.3s;
@@ -762,17 +707,6 @@ body {
   animation-fill-mode: forwards;
 }
 
-.capsule:nth-child(4) {
-  -webkit-animation-name: fadeIn;
-  -webkit-animation-duration: 0.5s;
-  -webkit-animation-delay: 2.1s;
-  -webkit-animation-fill-mode: forwards;
-  animation-name: fadeIn;
-  animation-duration: 0.5s;
-  animation-delay: 2.1s;
-  animation-fill-mode: forwards;
-}
-
 .capsule--basic:nth-child(5) {
   -webkit-animation-name: fadeIn;
   -webkit-animation-duration: 0.5s;
@@ -784,14 +718,58 @@ body {
   animation-fill-mode: forwards;
 }
 
-.capsule:nth-child(5) {
+.capsule:nth-child(0) {
   -webkit-animation-name: fadeIn;
   -webkit-animation-duration: 0.5s;
-  -webkit-animation-delay: 2.4s;
+  -webkit-animation-delay: 3s;
   -webkit-animation-fill-mode: forwards;
   animation-name: fadeIn;
   animation-duration: 0.5s;
-  animation-delay: 2.4s;
+  animation-delay: 3s;
+  animation-fill-mode: forwards;
+}
+
+.capsule:nth-child(1) {
+  -webkit-animation-name: fadeIn;
+  -webkit-animation-duration: 0.5s;
+  -webkit-animation-delay: 4s;
+  -webkit-animation-fill-mode: forwards;
+  animation-name: fadeIn;
+  animation-duration: 0.5s;
+  animation-delay: 4s;
+  animation-fill-mode: forwards;
+}
+
+.capsule:nth-child(2) {
+  -webkit-animation-name: fadeIn;
+  -webkit-animation-duration: 0.5s;
+  -webkit-animation-delay: 5s;
+  -webkit-animation-fill-mode: forwards;
+  animation-name: fadeIn;
+  animation-duration: 0.5s;
+  animation-delay: 5s;
+  animation-fill-mode: forwards;
+}
+
+.capsule:nth-child(3) {
+  -webkit-animation-name: fadeIn;
+  -webkit-animation-duration: 0.5s;
+  -webkit-animation-delay: 6s;
+  -webkit-animation-fill-mode: forwards;
+  animation-name: fadeIn;
+  animation-duration: 0.5s;
+  animation-delay: 6s;
+  animation-fill-mode: forwards;
+}
+
+.capsule:nth-child(4) {
+  -webkit-animation-name: fadeIn;
+  -webkit-animation-duration: 0.5s;
+  -webkit-animation-delay: 7s;
+  -webkit-animation-fill-mode: forwards;
+  animation-name: fadeIn;
+  animation-duration: 0.5s;
+  animation-delay: 7s;
   animation-fill-mode: forwards;
 }
 
@@ -1253,29 +1231,7 @@ h1 {
   animation-fill-mode: forwards;
 }
 
-.capsule:nth-child(0) {
-  -webkit-animation-name: fadeIn;
-  -webkit-animation-duration: 0.5s;
-  -webkit-animation-delay: 0.3s;
-  -webkit-animation-fill-mode: forwards;
-  animation-name: fadeIn;
-  animation-duration: 0.5s;
-  animation-delay: 0.3s;
-  animation-fill-mode: forwards;
-}
-
 .capsule--basic:nth-child(1) {
-  -webkit-animation-name: fadeIn;
-  -webkit-animation-duration: 0.5s;
-  -webkit-animation-delay: 0.5s;
-  -webkit-animation-fill-mode: forwards;
-  animation-name: fadeIn;
-  animation-duration: 0.5s;
-  animation-delay: 0.5s;
-  animation-fill-mode: forwards;
-}
-
-.capsule:nth-child(1) {
   -webkit-animation-name: fadeIn;
   -webkit-animation-duration: 0.5s;
   -webkit-animation-delay: 0.5s;
@@ -1297,29 +1253,7 @@ h1 {
   animation-fill-mode: forwards;
 }
 
-.capsule:nth-child(2) {
-  -webkit-animation-name: fadeIn;
-  -webkit-animation-duration: 0.5s;
-  -webkit-animation-delay: 0.8s;
-  -webkit-animation-fill-mode: forwards;
-  animation-name: fadeIn;
-  animation-duration: 0.5s;
-  animation-delay: 0.8s;
-  animation-fill-mode: forwards;
-}
-
 .capsule--basic:nth-child(3) {
-  -webkit-animation-name: fadeIn;
-  -webkit-animation-duration: 0.5s;
-  -webkit-animation-delay: 1.3s;
-  -webkit-animation-fill-mode: forwards;
-  animation-name: fadeIn;
-  animation-duration: 0.5s;
-  animation-delay: 1.3s;
-  animation-fill-mode: forwards;
-}
-
-.capsule:nth-child(3) {
   -webkit-animation-name: fadeIn;
   -webkit-animation-duration: 0.5s;
   -webkit-animation-delay: 1.3s;
@@ -1341,17 +1275,6 @@ h1 {
   animation-fill-mode: forwards;
 }
 
-.capsule:nth-child(4) {
-  -webkit-animation-name: fadeIn;
-  -webkit-animation-duration: 0.5s;
-  -webkit-animation-delay: 2.1s;
-  -webkit-animation-fill-mode: forwards;
-  animation-name: fadeIn;
-  animation-duration: 0.5s;
-  animation-delay: 2.1s;
-  animation-fill-mode: forwards;
-}
-
 .capsule--basic:nth-child(5) {
   -webkit-animation-name: fadeIn;
   -webkit-animation-duration: 0.5s;
@@ -1363,14 +1286,58 @@ h1 {
   animation-fill-mode: forwards;
 }
 
-.capsule:nth-child(5) {
+.capsule:nth-child(0) {
   -webkit-animation-name: fadeIn;
   -webkit-animation-duration: 0.5s;
-  -webkit-animation-delay: 2.4s;
+  -webkit-animation-delay: 3s;
   -webkit-animation-fill-mode: forwards;
   animation-name: fadeIn;
   animation-duration: 0.5s;
-  animation-delay: 2.4s;
+  animation-delay: 3s;
+  animation-fill-mode: forwards;
+}
+
+.capsule:nth-child(1) {
+  -webkit-animation-name: fadeIn;
+  -webkit-animation-duration: 0.5s;
+  -webkit-animation-delay: 4s;
+  -webkit-animation-fill-mode: forwards;
+  animation-name: fadeIn;
+  animation-duration: 0.5s;
+  animation-delay: 4s;
+  animation-fill-mode: forwards;
+}
+
+.capsule:nth-child(2) {
+  -webkit-animation-name: fadeIn;
+  -webkit-animation-duration: 0.5s;
+  -webkit-animation-delay: 5s;
+  -webkit-animation-fill-mode: forwards;
+  animation-name: fadeIn;
+  animation-duration: 0.5s;
+  animation-delay: 5s;
+  animation-fill-mode: forwards;
+}
+
+.capsule:nth-child(3) {
+  -webkit-animation-name: fadeIn;
+  -webkit-animation-duration: 0.5s;
+  -webkit-animation-delay: 6s;
+  -webkit-animation-fill-mode: forwards;
+  animation-name: fadeIn;
+  animation-duration: 0.5s;
+  animation-delay: 6s;
+  animation-fill-mode: forwards;
+}
+
+.capsule:nth-child(4) {
+  -webkit-animation-name: fadeIn;
+  -webkit-animation-duration: 0.5s;
+  -webkit-animation-delay: 7s;
+  -webkit-animation-fill-mode: forwards;
+  animation-name: fadeIn;
+  animation-duration: 0.5s;
+  animation-delay: 7s;
   animation-fill-mode: forwards;
 }
 
@@ -1776,29 +1743,7 @@ h1 {
   animation-fill-mode: forwards;
 }
 
-.capsule:nth-child(0) {
-  -webkit-animation-name: fadeIn;
-  -webkit-animation-duration: 0.5s;
-  -webkit-animation-delay: 0.3s;
-  -webkit-animation-fill-mode: forwards;
-  animation-name: fadeIn;
-  animation-duration: 0.5s;
-  animation-delay: 0.3s;
-  animation-fill-mode: forwards;
-}
-
 .capsule--basic:nth-child(1) {
-  -webkit-animation-name: fadeIn;
-  -webkit-animation-duration: 0.5s;
-  -webkit-animation-delay: 0.5s;
-  -webkit-animation-fill-mode: forwards;
-  animation-name: fadeIn;
-  animation-duration: 0.5s;
-  animation-delay: 0.5s;
-  animation-fill-mode: forwards;
-}
-
-.capsule:nth-child(1) {
   -webkit-animation-name: fadeIn;
   -webkit-animation-duration: 0.5s;
   -webkit-animation-delay: 0.5s;
@@ -1820,29 +1765,7 @@ h1 {
   animation-fill-mode: forwards;
 }
 
-.capsule:nth-child(2) {
-  -webkit-animation-name: fadeIn;
-  -webkit-animation-duration: 0.5s;
-  -webkit-animation-delay: 0.8s;
-  -webkit-animation-fill-mode: forwards;
-  animation-name: fadeIn;
-  animation-duration: 0.5s;
-  animation-delay: 0.8s;
-  animation-fill-mode: forwards;
-}
-
 .capsule--basic:nth-child(3) {
-  -webkit-animation-name: fadeIn;
-  -webkit-animation-duration: 0.5s;
-  -webkit-animation-delay: 1.3s;
-  -webkit-animation-fill-mode: forwards;
-  animation-name: fadeIn;
-  animation-duration: 0.5s;
-  animation-delay: 1.3s;
-  animation-fill-mode: forwards;
-}
-
-.capsule:nth-child(3) {
   -webkit-animation-name: fadeIn;
   -webkit-animation-duration: 0.5s;
   -webkit-animation-delay: 1.3s;
@@ -1864,17 +1787,6 @@ h1 {
   animation-fill-mode: forwards;
 }
 
-.capsule:nth-child(4) {
-  -webkit-animation-name: fadeIn;
-  -webkit-animation-duration: 0.5s;
-  -webkit-animation-delay: 2.1s;
-  -webkit-animation-fill-mode: forwards;
-  animation-name: fadeIn;
-  animation-duration: 0.5s;
-  animation-delay: 2.1s;
-  animation-fill-mode: forwards;
-}
-
 .capsule--basic:nth-child(5) {
   -webkit-animation-name: fadeIn;
   -webkit-animation-duration: 0.5s;
@@ -1886,14 +1798,58 @@ h1 {
   animation-fill-mode: forwards;
 }
 
-.capsule:nth-child(5) {
+.capsule:nth-child(0) {
   -webkit-animation-name: fadeIn;
   -webkit-animation-duration: 0.5s;
-  -webkit-animation-delay: 2.4s;
+  -webkit-animation-delay: 3s;
   -webkit-animation-fill-mode: forwards;
   animation-name: fadeIn;
   animation-duration: 0.5s;
-  animation-delay: 2.4s;
+  animation-delay: 3s;
+  animation-fill-mode: forwards;
+}
+
+.capsule:nth-child(1) {
+  -webkit-animation-name: fadeIn;
+  -webkit-animation-duration: 0.5s;
+  -webkit-animation-delay: 4s;
+  -webkit-animation-fill-mode: forwards;
+  animation-name: fadeIn;
+  animation-duration: 0.5s;
+  animation-delay: 4s;
+  animation-fill-mode: forwards;
+}
+
+.capsule:nth-child(2) {
+  -webkit-animation-name: fadeIn;
+  -webkit-animation-duration: 0.5s;
+  -webkit-animation-delay: 5s;
+  -webkit-animation-fill-mode: forwards;
+  animation-name: fadeIn;
+  animation-duration: 0.5s;
+  animation-delay: 5s;
+  animation-fill-mode: forwards;
+}
+
+.capsule:nth-child(3) {
+  -webkit-animation-name: fadeIn;
+  -webkit-animation-duration: 0.5s;
+  -webkit-animation-delay: 6s;
+  -webkit-animation-fill-mode: forwards;
+  animation-name: fadeIn;
+  animation-duration: 0.5s;
+  animation-delay: 6s;
+  animation-fill-mode: forwards;
+}
+
+.capsule:nth-child(4) {
+  -webkit-animation-name: fadeIn;
+  -webkit-animation-duration: 0.5s;
+  -webkit-animation-delay: 7s;
+  -webkit-animation-fill-mode: forwards;
+  animation-name: fadeIn;
+  animation-duration: 0.5s;
+  animation-delay: 7s;
   animation-fill-mode: forwards;
 }
 
@@ -2358,29 +2314,7 @@ h1 {
   animation-fill-mode: forwards;
 }
 
-.capsule:nth-child(0) {
-  -webkit-animation-name: fadeIn;
-  -webkit-animation-duration: 0.5s;
-  -webkit-animation-delay: 0.3s;
-  -webkit-animation-fill-mode: forwards;
-  animation-name: fadeIn;
-  animation-duration: 0.5s;
-  animation-delay: 0.3s;
-  animation-fill-mode: forwards;
-}
-
 .capsule--basic:nth-child(1) {
-  -webkit-animation-name: fadeIn;
-  -webkit-animation-duration: 0.5s;
-  -webkit-animation-delay: 0.5s;
-  -webkit-animation-fill-mode: forwards;
-  animation-name: fadeIn;
-  animation-duration: 0.5s;
-  animation-delay: 0.5s;
-  animation-fill-mode: forwards;
-}
-
-.capsule:nth-child(1) {
   -webkit-animation-name: fadeIn;
   -webkit-animation-duration: 0.5s;
   -webkit-animation-delay: 0.5s;
@@ -2402,29 +2336,7 @@ h1 {
   animation-fill-mode: forwards;
 }
 
-.capsule:nth-child(2) {
-  -webkit-animation-name: fadeIn;
-  -webkit-animation-duration: 0.5s;
-  -webkit-animation-delay: 0.8s;
-  -webkit-animation-fill-mode: forwards;
-  animation-name: fadeIn;
-  animation-duration: 0.5s;
-  animation-delay: 0.8s;
-  animation-fill-mode: forwards;
-}
-
 .capsule--basic:nth-child(3) {
-  -webkit-animation-name: fadeIn;
-  -webkit-animation-duration: 0.5s;
-  -webkit-animation-delay: 1.3s;
-  -webkit-animation-fill-mode: forwards;
-  animation-name: fadeIn;
-  animation-duration: 0.5s;
-  animation-delay: 1.3s;
-  animation-fill-mode: forwards;
-}
-
-.capsule:nth-child(3) {
   -webkit-animation-name: fadeIn;
   -webkit-animation-duration: 0.5s;
   -webkit-animation-delay: 1.3s;
@@ -2446,17 +2358,6 @@ h1 {
   animation-fill-mode: forwards;
 }
 
-.capsule:nth-child(4) {
-  -webkit-animation-name: fadeIn;
-  -webkit-animation-duration: 0.5s;
-  -webkit-animation-delay: 2.1s;
-  -webkit-animation-fill-mode: forwards;
-  animation-name: fadeIn;
-  animation-duration: 0.5s;
-  animation-delay: 2.1s;
-  animation-fill-mode: forwards;
-}
-
 .capsule--basic:nth-child(5) {
   -webkit-animation-name: fadeIn;
   -webkit-animation-duration: 0.5s;
@@ -2468,14 +2369,58 @@ h1 {
   animation-fill-mode: forwards;
 }
 
-.capsule:nth-child(5) {
+.capsule:nth-child(0) {
   -webkit-animation-name: fadeIn;
   -webkit-animation-duration: 0.5s;
-  -webkit-animation-delay: 2.4s;
+  -webkit-animation-delay: 3s;
   -webkit-animation-fill-mode: forwards;
   animation-name: fadeIn;
   animation-duration: 0.5s;
-  animation-delay: 2.4s;
+  animation-delay: 3s;
+  animation-fill-mode: forwards;
+}
+
+.capsule:nth-child(1) {
+  -webkit-animation-name: fadeIn;
+  -webkit-animation-duration: 0.5s;
+  -webkit-animation-delay: 4s;
+  -webkit-animation-fill-mode: forwards;
+  animation-name: fadeIn;
+  animation-duration: 0.5s;
+  animation-delay: 4s;
+  animation-fill-mode: forwards;
+}
+
+.capsule:nth-child(2) {
+  -webkit-animation-name: fadeIn;
+  -webkit-animation-duration: 0.5s;
+  -webkit-animation-delay: 5s;
+  -webkit-animation-fill-mode: forwards;
+  animation-name: fadeIn;
+  animation-duration: 0.5s;
+  animation-delay: 5s;
+  animation-fill-mode: forwards;
+}
+
+.capsule:nth-child(3) {
+  -webkit-animation-name: fadeIn;
+  -webkit-animation-duration: 0.5s;
+  -webkit-animation-delay: 6s;
+  -webkit-animation-fill-mode: forwards;
+  animation-name: fadeIn;
+  animation-duration: 0.5s;
+  animation-delay: 6s;
+  animation-fill-mode: forwards;
+}
+
+.capsule:nth-child(4) {
+  -webkit-animation-name: fadeIn;
+  -webkit-animation-duration: 0.5s;
+  -webkit-animation-delay: 7s;
+  -webkit-animation-fill-mode: forwards;
+  animation-name: fadeIn;
+  animation-duration: 0.5s;
+  animation-delay: 7s;
   animation-fill-mode: forwards;
 }
 
@@ -2962,29 +2907,7 @@ h1 {
   animation-fill-mode: forwards;
 }
 
-.capsule:nth-child(0) {
-  -webkit-animation-name: fadeIn;
-  -webkit-animation-duration: 0.5s;
-  -webkit-animation-delay: 0.3s;
-  -webkit-animation-fill-mode: forwards;
-  animation-name: fadeIn;
-  animation-duration: 0.5s;
-  animation-delay: 0.3s;
-  animation-fill-mode: forwards;
-}
-
 .capsule--basic:nth-child(1) {
-  -webkit-animation-name: fadeIn;
-  -webkit-animation-duration: 0.5s;
-  -webkit-animation-delay: 0.5s;
-  -webkit-animation-fill-mode: forwards;
-  animation-name: fadeIn;
-  animation-duration: 0.5s;
-  animation-delay: 0.5s;
-  animation-fill-mode: forwards;
-}
-
-.capsule:nth-child(1) {
   -webkit-animation-name: fadeIn;
   -webkit-animation-duration: 0.5s;
   -webkit-animation-delay: 0.5s;
@@ -3006,29 +2929,7 @@ h1 {
   animation-fill-mode: forwards;
 }
 
-.capsule:nth-child(2) {
-  -webkit-animation-name: fadeIn;
-  -webkit-animation-duration: 0.5s;
-  -webkit-animation-delay: 0.8s;
-  -webkit-animation-fill-mode: forwards;
-  animation-name: fadeIn;
-  animation-duration: 0.5s;
-  animation-delay: 0.8s;
-  animation-fill-mode: forwards;
-}
-
 .capsule--basic:nth-child(3) {
-  -webkit-animation-name: fadeIn;
-  -webkit-animation-duration: 0.5s;
-  -webkit-animation-delay: 1.3s;
-  -webkit-animation-fill-mode: forwards;
-  animation-name: fadeIn;
-  animation-duration: 0.5s;
-  animation-delay: 1.3s;
-  animation-fill-mode: forwards;
-}
-
-.capsule:nth-child(3) {
   -webkit-animation-name: fadeIn;
   -webkit-animation-duration: 0.5s;
   -webkit-animation-delay: 1.3s;
@@ -3050,17 +2951,6 @@ h1 {
   animation-fill-mode: forwards;
 }
 
-.capsule:nth-child(4) {
-  -webkit-animation-name: fadeIn;
-  -webkit-animation-duration: 0.5s;
-  -webkit-animation-delay: 2.1s;
-  -webkit-animation-fill-mode: forwards;
-  animation-name: fadeIn;
-  animation-duration: 0.5s;
-  animation-delay: 2.1s;
-  animation-fill-mode: forwards;
-}
-
 .capsule--basic:nth-child(5) {
   -webkit-animation-name: fadeIn;
   -webkit-animation-duration: 0.5s;
@@ -3072,14 +2962,58 @@ h1 {
   animation-fill-mode: forwards;
 }
 
-.capsule:nth-child(5) {
+.capsule:nth-child(0) {
   -webkit-animation-name: fadeIn;
   -webkit-animation-duration: 0.5s;
-  -webkit-animation-delay: 2.4s;
+  -webkit-animation-delay: 3s;
   -webkit-animation-fill-mode: forwards;
   animation-name: fadeIn;
   animation-duration: 0.5s;
-  animation-delay: 2.4s;
+  animation-delay: 3s;
+  animation-fill-mode: forwards;
+}
+
+.capsule:nth-child(1) {
+  -webkit-animation-name: fadeIn;
+  -webkit-animation-duration: 0.5s;
+  -webkit-animation-delay: 4s;
+  -webkit-animation-fill-mode: forwards;
+  animation-name: fadeIn;
+  animation-duration: 0.5s;
+  animation-delay: 4s;
+  animation-fill-mode: forwards;
+}
+
+.capsule:nth-child(2) {
+  -webkit-animation-name: fadeIn;
+  -webkit-animation-duration: 0.5s;
+  -webkit-animation-delay: 5s;
+  -webkit-animation-fill-mode: forwards;
+  animation-name: fadeIn;
+  animation-duration: 0.5s;
+  animation-delay: 5s;
+  animation-fill-mode: forwards;
+}
+
+.capsule:nth-child(3) {
+  -webkit-animation-name: fadeIn;
+  -webkit-animation-duration: 0.5s;
+  -webkit-animation-delay: 6s;
+  -webkit-animation-fill-mode: forwards;
+  animation-name: fadeIn;
+  animation-duration: 0.5s;
+  animation-delay: 6s;
+  animation-fill-mode: forwards;
+}
+
+.capsule:nth-child(4) {
+  -webkit-animation-name: fadeIn;
+  -webkit-animation-duration: 0.5s;
+  -webkit-animation-delay: 7s;
+  -webkit-animation-fill-mode: forwards;
+  animation-name: fadeIn;
+  animation-duration: 0.5s;
+  animation-delay: 7s;
   animation-fill-mode: forwards;
 }
 

@@ -91,6 +91,16 @@ $map-transition-delay: (
     opacity: 1;
   }
 }
+
+$slower-delay: (
+  0: 3s,
+  1: 4s,
+  2: 5s,
+  3: 6s,
+  4: 7s,
+);
+
+
 @mixin animation-fadeIn($val, $duration) {
   -webkit-animation-name: fadeIn;
   -webkit-animation-duration: $duration;
@@ -105,10 +115,14 @@ $map-transition-delay: (
   .capsule--basic:nth-child(#{$index}) {
     @include animation-fadeIn($value, 0.5s);
   }
+}
+
+@each $index, $value in $slower-delay {
   .capsule:nth-child(#{$index}) {
     @include animation-fadeIn($value, 0.5s);
   }
 }
+
 
 /*************************ANIMATION LOADER*************************/
 
